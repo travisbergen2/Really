@@ -1,0 +1,218 @@
+{
+  "name": "riemann_zero_density_symmetry_mismatch",
+  "rows": [
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.2,
+      "I": 0.6579083716912407
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.19,
+      "I": 0.5995096542420963
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.18000000000000002,
+      "I": 0.54384645955032
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.17,
+      "I": 0.4909187876159215
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.16,
+      "I": 0.4407266384388961
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.15000000000000002,
+      "I": 0.39296859744802
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.14,
+      "I": 0.3444956836670021
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.13,
+      "I": 0.2992175856219352
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.12000000000000001,
+      "I": 0.2571343033128145
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.11000000000000001,
+      "I": 0.21824583673964046
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.1,
+      "I": 0.18245607105237058
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.09000000000000001,
+      "I": 0.14823211094461844
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.08000000000000002,
+      "I": 0.11756013921733054
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.07,
+      "I": 0.09044015587050686
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.06,
+      "I": 0.06687216090414552
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.05000000000000002,
+      "I": 0.04684359448363707
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.04000000000000001,
+      "I": 0.029979900469527993
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.03,
+      "I": 0.016863694014109743
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.020000000000000018,
+      "I": 0.007494975117381993
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": -0.010000000000000009,
+      "I": 0.0018737437793454172
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.0,
+      "I": 0.0
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.009999999999999981,
+      "I": 0.0018737437793454172
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.01999999999999999,
+      "I": 0.007494975117381663
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.03,
+      "I": 0.016863694014109743
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.03999999999999998,
+      "I": 0.029979900469527993
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.04999999999999999,
+      "I": 0.04684359448363707
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.06,
+      "I": 0.06687216090414552
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.07,
+      "I": 0.09044015587050686
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.08000000000000002,
+      "I": 0.11756013921733054
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.08999999999999997,
+      "I": 0.14823211094461844
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.09999999999999998,
+      "I": 0.18245607105237058
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.10999999999999999,
+      "I": 0.21824583673964046
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.12,
+      "I": 0.2571343033128145
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.13,
+      "I": 0.2992175856219352
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.14,
+      "I": 0.3444956836670021
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.15000000000000002,
+      "I": 0.39296859744802
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.15999999999999998,
+      "I": 0.4407266384388961
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.16999999999999998,
+      "I": 0.4909187876159215
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.18,
+      "I": 0.54384645955032
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.19,
+      "I": 0.5995096542420963
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch",
+      "eps": 0.2,
+      "I": 0.6579083716912407
+    },
+    {
+      "experiment": "riemann_zero_density_symmetry_mismatch_verdict",
+      "eps": NaN,
+      "I": NaN,
+      "passed": true,
+      "reason": "zero is a local minimum",
+      "expected_minimizer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "name": "riemann_receiver_width_cost",
+  "rows": [
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.2,
+      "I": 0.25
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.19,
+      "I": 0.24
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.18000000000000002,
+      "I": 0.23000000000000004
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.17,
+      "I": 0.22000000000000003
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.16,
+      "I": 0.21000000000000002
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.15000000000000002,
+      "I": 0.2
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.14,
+      "I": 0.19
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.13,
+      "I": 0.18
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.12000000000000001,
+      "I": 0.17
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.11000000000000001,
+      "I": 0.16000000000000003
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.1,
+      "I": 0.15000000000000002
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.09000000000000001,
+      "I": 0.14
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.08000000000000002,
+      "I": 0.13
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.07,
+      "I": 0.12000000000000001
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.06,
+      "I": 0.11
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.05000000000000002,
+      "I": 0.10000000000000002
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.04000000000000001,
+      "I": 0.09000000000000001
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.03,
+      "I": 0.08
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.020000000000000018,
+      "I": 0.07000000000000002
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": -0.010000000000000009,
+      "I": 0.06000000000000001
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.0,
+      "I": 0.05
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.009999999999999981,
+      "I": 0.059999999999999984
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.01999999999999999,
+      "I": 0.06999999999999999
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.03,
+      "I": 0.08
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.03999999999999998,
+      "I": 0.08999999999999998
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.04999999999999999,
+      "I": 0.09999999999999999
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.06,
+      "I": 0.11
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.07,
+      "I": 0.12000000000000001
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.08000000000000002,
+      "I": 0.13
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.08999999999999997,
+      "I": 0.13999999999999996
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.09999999999999998,
+      "I": 0.14999999999999997
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.10999999999999999,
+      "I": 0.15999999999999998
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.12,
+      "I": 0.16999999999999998
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.13,
+      "I": 0.18
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.14,
+      "I": 0.19
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.15000000000000002,
+      "I": 0.2
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.15999999999999998,
+      "I": 0.20999999999999996
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.16999999999999998,
+      "I": 0.21999999999999997
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.18,
+      "I": 0.22999999999999998
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.19,
+      "I": 0.24
+    },
+    {
+      "experiment": "riemann_receiver_width_cost",
+      "eps": 0.2,
+      "I": 0.25
+    },
+    {
+      "experiment": "riemann_receiver_width_cost_verdict",
+      "eps": NaN,
+      "I": NaN,
+      "passed": true,
+      "reason": "zero is a local minimum",
+      "expected_minimizer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+a,b,c,pass_count,failed_experiments,synthetic_spectrum_minimizer,synthetic_spectrum_pass_fail,synthetic_spectrum_reason,riemann_sweep_minimizer,riemann_sweep_pass_fail,riemann_sweep_reason,offline_pair_test_minimizer,offline_pair_test_pass_fail,offline_pair_test_reason,sanity_check_minimizer,sanity_check_pass_fail,sanity_check_reason
+0.0,0.0,1.0,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.0,0.25,0.75,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.0,0.5,0.5,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.0,0.75,0.25,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.0,1.0,0.0,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.25,0.0,0.75,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.25,0.25,0.5,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.25,0.5,0.25,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.25,0.75,0.0,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.5,0.0,0.5,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.5,0.25,0.25,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.5,0.5,0.0,3,riemann_sweep,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000
+0.75,0.25,0.0,2,riemann_sweep;offline_pair_test,0.0,PASS,minimizer at 0.000000,-0.2,FAIL,"minimizer at -0.200000, expected 0.000000",0.25,FAIL,"minimizer at 0.250000, expected 0.000000",0.0,PASS,minimizer at 0.000000
+1.0,0.0,0.0,2,offline_pair_test;sanity_check,0.0,PASS,minimizer at 0.000000,0.0,PASS,minimizer at 0.000000,0.25,FAIL,"minimizer at 0.250000, expected 0.000000",1.0,FAIL,"minimizer at 1.000000, expected 0.000000"
+0.75,0.0,0.25,1,riemann_sweep;offline_pair_test;sanity_check,0.0,PASS,minimizer at 0.000000,-0.09000000000000001,FAIL,"minimizer at -0.090000, expected 0.000000",0.25,FAIL,"minimizer at 0.250000, expected 0.000000",0.7000000000000001,FAIL,"minimizer at 0.700000, expected 0.000000"

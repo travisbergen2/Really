@@ -1,0 +1,21 @@
+experiment,functional_name,minimizer,expected_minimizer,pass_fail,reason
+synthetic_spectrum,entropy_spread_minus_concentration,0.0,0.0,PASS,minimizer at 0.000000
+synthetic_spectrum,spectral_entropy,0.0,0.0,PASS,minimizer at 0.000000
+synthetic_spectrum,resolution_cost,0.0,0.0,PASS,minimizer at 0.000000
+synthetic_spectrum,symmetry_pair_penalty,0.0,0.0,PASS,minimizer at 0.000000
+synthetic_spectrum,entropy_plus_resolution,0.0,0.0,PASS,minimizer at 0.000000
+riemann_sweep,entropy_spread_minus_concentration,-0.2,0.0,FAIL,"minimizer at -0.200000, expected 0.000000"
+riemann_sweep,spectral_entropy,0.0,0.0,PASS,minimizer at 0.000000
+riemann_sweep,resolution_cost,-0.2,0.0,FAIL,"minimizer at -0.200000, expected 0.000000"
+riemann_sweep,symmetry_pair_penalty,-0.2,0.0,FAIL,"minimizer at -0.200000, expected 0.000000"
+riemann_sweep,entropy_plus_resolution,-0.2,0.0,FAIL,"minimizer at -0.200000, expected 0.000000"
+offline_pair_test,entropy_spread_minus_concentration,0.25,0.0,FAIL,"minimizer at 0.250000, expected 0.000000"
+offline_pair_test,spectral_entropy,0.25,0.0,FAIL,"minimizer at 0.250000, expected 0.000000"
+offline_pair_test,resolution_cost,0.0,0.0,PASS,minimizer at 0.000000
+offline_pair_test,symmetry_pair_penalty,0.0,0.0,PASS,minimizer at 0.000000
+offline_pair_test,entropy_plus_resolution,0.08,0.0,FAIL,"minimizer at 0.080000, expected 0.000000"
+sanity_check,entropy_spread_minus_concentration,0.0,0.0,PASS,minimizer at 0.000000
+sanity_check,spectral_entropy,1.0,0.0,FAIL,"minimizer at 1.000000, expected 0.000000"
+sanity_check,resolution_cost,0.0,0.0,PASS,minimizer at 0.000000
+sanity_check,symmetry_pair_penalty,0.0,0.0,PASS,minimizer at 0.000000
+sanity_check,entropy_plus_resolution,0.0,0.0,PASS,minimizer at 0.000000

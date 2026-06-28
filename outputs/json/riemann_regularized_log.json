@@ -1,0 +1,218 @@
+{
+  "name": "riemann_regularized_log",
+  "rows": [
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.2,
+      "I": 4.8193933380108405
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.19,
+      "I": 4.858461305918816
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.18000000000000002,
+      "I": 4.900337715570765
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.17,
+      "I": 4.9454164698827725
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.16,
+      "I": 4.994185501923436
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.15000000000000002,
+      "I": 5.04725834108095
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.14,
+      "I": 5.105418357248356
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.13,
+      "I": 5.169681244279834
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.12000000000000001,
+      "I": 5.241383833769462
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.11000000000000001,
+      "I": 5.322310989621373
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.1,
+      "I": 5.414877552443881
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.09000000000000001,
+      "I": 5.522389540190316
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.08000000000000002,
+      "I": 5.649418264683654
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.07,
+      "I": 5.802331489347335
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.06,
+      "I": 5.990030017115521
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.05000000000000002,
+      "I": 6.2249023172896365
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.04000000000000001,
+      "I": 6.5237719157887275
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.03,
+      "I": 6.907340743036511
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.020000000000000018,
+      "I": 7.389879506741086
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": -0.010000000000000009,
+      "I": 7.919212560169063
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.0,
+      "I": 8.200440800010007
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.009999999999999981,
+      "I": 7.919212560169063
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.01999999999999999,
+      "I": 7.389879506741086
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.03,
+      "I": 6.907340743036511
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.03999999999999998,
+      "I": 6.5237719157887275
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.04999999999999999,
+      "I": 6.2249023172896365
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.06,
+      "I": 5.9900300171155205
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.07,
+      "I": 5.802331489347333
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.08000000000000002,
+      "I": 5.6494182646836535
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.08999999999999997,
+      "I": 5.522389540190316
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.09999999999999998,
+      "I": 5.414877552443881
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.10999999999999999,
+      "I": 5.322310989621373
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.12,
+      "I": 5.241383833769462
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.13,
+      "I": 5.169681244279834
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.14,
+      "I": 5.105418357248356
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.15000000000000002,
+      "I": 5.04725834108095
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.15999999999999998,
+      "I": 4.994185501923436
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.16999999999999998,
+      "I": 4.945416469882773
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.18,
+      "I": 4.900337715570765
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.19,
+      "I": 4.858461305918816
+    },
+    {
+      "experiment": "riemann_regularized_log",
+      "eps": 0.2,
+      "I": 4.8193933380108405
+    },
+    {
+      "experiment": "riemann_regularized_log_verdict",
+      "eps": NaN,
+      "I": NaN,
+      "passed": false,
+      "reason": "minimum shifted to eps=-0.200000",
+      "expected_minimizer": 0.0
+    }
+  ]
+}

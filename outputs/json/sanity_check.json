@@ -1,0 +1,139 @@
+{
+  "name": "sanity_check",
+  "rows": [
+    {
+      "experiment": "sanity_check",
+      "scale": 0.0,
+      "pca_cost": 4.824924084987079,
+      "fourier_cost": 4.78657434085009
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.05,
+      "pca_cost": 4.827167657828233,
+      "fourier_cost": 4.792210103099564
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.1,
+      "pca_cost": 4.829506370727525,
+      "fourier_cost": 4.7953197630122615
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.15000000000000002,
+      "pca_cost": 4.83192293764525,
+      "fourier_cost": 4.7962693206226
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.2,
+      "pca_cost": 4.833832519527616,
+      "fourier_cost": 4.79507804108278
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.25,
+      "pca_cost": 4.836833887267227,
+      "fourier_cost": 4.7913848865252495
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.30000000000000004,
+      "pca_cost": 4.839018197980821,
+      "fourier_cost": 4.78362392171975
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.35000000000000003,
+      "pca_cost": 4.8404646287185225,
+      "fourier_cost": 4.785382054080223
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.4,
+      "pca_cost": 4.842995535249445,
+      "fourier_cost": 4.790930997716867
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.45,
+      "pca_cost": 4.844541047288536,
+      "fourier_cost": 4.796429593998648
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.5,
+      "pca_cost": 4.845124605679257,
+      "fourier_cost": 4.802916647858733
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.55,
+      "pca_cost": 4.844453089784227,
+      "fourier_cost": 4.806366291093504
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.6000000000000001,
+      "pca_cost": 4.841780609511063,
+      "fourier_cost": 4.812558814119969
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.65,
+      "pca_cost": 4.837960398545966,
+      "fourier_cost": 4.815605194772461
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.7000000000000001,
+      "pca_cost": 4.8421266432900945,
+      "fourier_cost": 4.820667606273696
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.75,
+      "pca_cost": 4.85137552129924,
+      "fourier_cost": 4.829606044846919
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.8,
+      "pca_cost": 4.861979093284109,
+      "fourier_cost": 4.837798673461999
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.8500000000000001,
+      "pca_cost": 4.870907307108108,
+      "fourier_cost": 4.850942815416119
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.9,
+      "pca_cost": 4.883909605382019,
+      "fourier_cost": 4.8605482107941125
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 0.9500000000000001,
+      "pca_cost": 4.898900250700927,
+      "fourier_cost": 4.8716825077554065
+    },
+    {
+      "experiment": "sanity_check",
+      "scale": 1.0,
+      "pca_cost": 4.914384390052665,
+      "fourier_cost": 4.885798809499156
+    },
+    {
+      "experiment": "sanity_check_verdict",
+      "scale": NaN,
+      "pca_cost": NaN,
+      "fourier_cost": NaN,
+      "passed": false,
+      "reason": "cost does not consistently fall with compression"
+    }
+  ]
+}

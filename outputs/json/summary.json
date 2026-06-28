@@ -1,0 +1,115 @@
+{
+  "functional": "entropy_spread_minus_concentration",
+  "experiments": [
+    {
+      "name": "synthetic_spectrum",
+      "rows": 32
+    },
+    {
+      "name": "riemann_sweep",
+      "rows": 42
+    },
+    {
+      "name": "riemann_principal_value",
+      "rows": 42
+    },
+    {
+      "name": "riemann_zero_attraction",
+      "rows": 42
+    },
+    {
+      "name": "riemann_regularized_log",
+      "rows": 42
+    },
+    {
+      "name": "riemann_logxi_symmetry_mismatch",
+      "rows": 42
+    },
+    {
+      "name": "riemann_zero_density_symmetry_mismatch",
+      "rows": 42
+    },
+    {
+      "name": "riemann_receiver_width_cost",
+      "rows": 42
+    },
+    {
+      "name": "offline_pair_test",
+      "rows": 27
+    },
+    {
+      "name": "sanity_check",
+      "rows": 22
+    },
+    {
+      "name": "comparison_summary",
+      "rows": 20
+    },
+    {
+      "name": "comparison_curves",
+      "rows": 595
+    },
+    {
+      "name": "coefficient_grid_leaderboard",
+      "rows": 15
+    },
+    {
+      "name": "riemann_diagnostics",
+      "rows": 1
+    },
+    {
+      "name": "riemann_family_comparison_report",
+      "rows": 1
+    },
+    {
+      "name": "vim_benchmark_executive_summary",
+      "rows": 1
+    }
+  ],
+  "comparison_functionals": [
+    "entropy_spread_minus_concentration",
+    "spectral_entropy",
+    "resolution_cost",
+    "symmetry_pair_penalty",
+    "entropy_plus_resolution"
+  ],
+  "grid_step": 0.25,
+  "riemann_diagnostics": {
+    "raw_minimizer_eps": -0.2,
+    "raw_minimizer_value": 20.65376616447603,
+    "raw_minimizer_is_zero": false,
+    "symmetry_max_abs_diff": 8.526512829121202e-14,
+    "raw_value_range": [
+      20.65376616447603,
+      612.0261499231958
+    ],
+    "raw_median": 37.60084486781505,
+    "raw_p95": 461.9504276491969,
+    "raw_p99": 551.9958610135965,
+    "normalized_minimizer_eps": -0.2,
+    "winsorized_minimizer_eps": -0.2,
+    "plots": {
+      "raw": "outputs/diagnostics/plots/riemann_raw.png",
+      "log": "outputs/diagnostics/plots/riemann_log.png",
+      "normalized": "outputs/diagnostics/plots/riemann_normalized.png",
+      "winsorized": "outputs/diagnostics/plots/riemann_winsorized.png"
+    },
+    "functional_minimizers": {
+      "entropy_spread_minus_concentration": -0.2,
+      "spectral_entropy": 0.0,
+      "resolution_cost": -0.2,
+      "symmetry_pair_penalty": -0.2,
+      "entropy_plus_resolution": -0.2
+    }
+  },
+  "riemann_variants": [
+    "riemann_principal_value",
+    "riemann_zero_attraction",
+    "riemann_regularized_log",
+    "riemann_logxi_symmetry_mismatch",
+    "riemann_zero_density_symmetry_mismatch",
+    "riemann_receiver_width_cost"
+  ],
+  "riemann_family_report": "outputs/reports/riemann_family_comparison.md",
+  "executive_summary": "outputs/reports/vim_benchmark_executive_summary.md"
+}

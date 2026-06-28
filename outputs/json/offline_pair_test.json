@@ -1,0 +1,142 @@
+{
+  "name": "offline_pair_test",
+  "rows": [
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.0,
+      "cost": 4.344823711393932
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.01,
+      "cost": 4.3442729889424685
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.02,
+      "cost": 4.343178905503862
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.03,
+      "cost": 4.34174985195503
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.04,
+      "cost": 4.340027745704322
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.05,
+      "cost": 4.33803035112005
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.06,
+      "cost": 4.3357659948900595
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.07,
+      "cost": 4.333237971181728
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.08,
+      "cost": 4.33044627325635
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.09,
+      "cost": 4.327388327488148
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.1,
+      "cost": 4.324059234937531
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.11,
+      "cost": 4.320451670756688
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.12,
+      "cost": 4.316555414512133
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.13,
+      "cost": 4.312356279589893
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.14,
+      "cost": 4.307833712141644
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.15,
+      "cost": 4.302954461114363
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.16,
+      "cost": 4.297647970362586
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.17,
+      "cost": 4.292548169961814
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.18,
+      "cost": 4.288425631565044
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.19,
+      "cost": 4.28379760403123
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.2,
+      "cost": 4.278744080654252
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.21,
+      "cost": 4.273277842753536
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.22,
+      "cost": 4.267389635112927
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.23,
+      "cost": 4.261052744225309
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.24,
+      "cost": 4.254211345259887
+    },
+    {
+      "experiment": "offline_pair_test",
+      "eps": 0.25,
+      "cost": 4.246642920330584
+    },
+    {
+      "experiment": "offline_pair_test_verdict",
+      "eps": NaN,
+      "cost": NaN,
+      "passed": false,
+      "reason": "minimum shifted to eps=0.250000"
+    }
+  ]
+}

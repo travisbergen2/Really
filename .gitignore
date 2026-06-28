@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.translator_hub/
+.env
+*.log
+.venv/
+*.egg-info/

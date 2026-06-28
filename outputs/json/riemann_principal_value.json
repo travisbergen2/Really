@@ -1,0 +1,218 @@
+{
+  "name": "riemann_principal_value",
+  "rows": [
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.2,
+      "I": 18.8597257725329
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.19,
+      "I": 19.381572891021804
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.18000000000000002,
+      "I": 19.93268113014654
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.17,
+      "I": 20.513731529937708
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.16,
+      "I": 21.124962918685323
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.15000000000000002,
+      "I": 21.766004207125704
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.14,
+      "I": 22.4356699961024
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.13,
+      "I": 23.13171888367372
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.12000000000000001,
+      "I": 23.850578455459672
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.11000000000000001,
+      "I": 24.58704824297506
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.1,
+      "I": 25.334002471264707
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.09000000000000001,
+      "I": 26.082128200269594
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.08000000000000002,
+      "I": 26.819750398300457
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.07,
+      "I": 27.532810639492567
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.06,
+      "I": 28.205075130902998
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.05000000000000002,
+      "I": 28.81864299367233
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.04000000000000001,
+      "I": 29.354798871216147
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.03,
+      "I": 29.79519993031998
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.020000000000000018,
+      "I": 30.123309644571286
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": -0.010000000000000009,
+      "I": 30.325905816359324
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.0,
+      "I": 30.394426502256028
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.009999999999999981,
+      "I": 30.325905816359324
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.01999999999999999,
+      "I": 30.123309644571286
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.03,
+      "I": 29.79519993031998
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.03999999999999998,
+      "I": 29.354798871216154
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.04999999999999999,
+      "I": 28.818642993672345
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.06,
+      "I": 28.205075130902998
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.07,
+      "I": 27.532810639492553
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.08000000000000002,
+      "I": 26.81975039830045
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.08999999999999997,
+      "I": 26.0821282002696
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.09999999999999998,
+      "I": 25.334002471264707
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.10999999999999999,
+      "I": 24.58704824297506
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.12,
+      "I": 23.85057845545968
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.13,
+      "I": 23.131718883673727
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.14,
+      "I": 22.4356699961024
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.15000000000000002,
+      "I": 21.766004207125704
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.15999999999999998,
+      "I": 21.12496291868533
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.16999999999999998,
+      "I": 20.51373152993771
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.18,
+      "I": 19.93268113014655
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.19,
+      "I": 19.381572891021808
+    },
+    {
+      "experiment": "riemann_principal_value",
+      "eps": 0.2,
+      "I": 18.8597257725329
+    },
+    {
+      "experiment": "riemann_principal_value_verdict",
+      "eps": NaN,
+      "I": NaN,
+      "passed": false,
+      "reason": "minimum shifted to eps=-0.200000",
+      "expected_minimizer": 0.0
+    }
+  ]
+}

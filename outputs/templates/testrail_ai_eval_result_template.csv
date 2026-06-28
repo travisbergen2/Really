@@ -1,0 +1,2 @@
+case_id,status_id,comment,quality_rating,custom_ai_input,custom_ai_output,custom_ai_traces,custom_ai_latency,defects
+107,2,Baseline example. Replace with actual model output and evaluator notes.,"{""response_consistency"": 3, ""functional_correctness"": 3, ""actionability"": 3, ""factual_accuracy"": 3, ""reasoning_coherence"": 3, ""relevance_to_user_intent"": 3}",REPLACE_WITH_PROMPT,REPLACE_WITH_MODEL_OUTPUT,REPLACE_WITH_TRACE_URL,REPLACE_WITH_LATENCY_SECONDS,

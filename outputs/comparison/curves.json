@@ -1,0 +1,3575 @@
+{
+  "name": "comparison_curves",
+  "rows": [
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.0,
+      "score": 345.20258848914034
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.1,
+      "score": 345.2040273260345
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.2,
+      "score": 345.2054447000461
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.30000000000000004,
+      "score": 345.20684141564556
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.4,
+      "score": 345.20821819668237
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.5,
+      "score": 345.20957570110494
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.6000000000000001,
+      "score": 345.21091453200467
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.7000000000000001,
+      "score": 345.2122352460946
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.8,
+      "score": 345.2135383603532
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.9,
+      "score": 345.2148243573234
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.0,
+      "score": 345.2160936894006
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.1,
+      "score": 345.21734678235595
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.2000000000000002,
+      "score": 345.21858403826076
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.3,
+      "score": 345.2198058379431
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.4000000000000001,
+      "score": 345.2210125430728
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.5,
+      "score": 345.2222044979414
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.6,
+      "score": 345.22338203100014
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.7000000000000002,
+      "score": 345.22454545619456
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.8,
+      "score": 345.2256950741304
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.9000000000000001,
+      "score": 345.2268311731019
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.0,
+      "score": 345.2279540299975
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.1,
+      "score": 345.22906391110826
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.2,
+      "score": 345.2301610728492
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.3000000000000003,
+      "score": 345.23124576240525
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.4000000000000004,
+      "score": 345.23231821831604
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.5,
+      "score": 345.23337867100133
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.6,
+      "score": 345.2344273432411
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.7,
+      "score": 345.23546445061106
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.8000000000000003,
+      "score": 345.2364902018807
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 2.9000000000000004,
+      "score": 345.2375047993795
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 3.0,
+      "score": 345.23850843933053
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.0,
+      "score": 3.9732615660633908
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.1,
+      "score": 3.9746694806602374
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.2,
+      "score": 3.9760562156311026
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.30000000000000004,
+      "score": 3.97742257199791
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.4,
+      "score": 3.978769270212747
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.5,
+      "score": 3.98009696487905
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.6000000000000001,
+      "score": 3.981406255793198
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.7000000000000001,
+      "score": 3.982697696422911
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.8,
+      "score": 3.9839718005502465
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.9,
+      "score": 3.9852290475686245
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.0,
+      "score": 3.98646988677198
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.1,
+      "score": 3.9876947408752854
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.2000000000000002,
+      "score": 3.988904008939225
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.3,
+      "score": 3.9900980688262075
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.4000000000000001,
+      "score": 3.991277279282908
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.5,
+      "score": 3.9924419817216443
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.6,
+      "score": 3.9935925017563045
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.7000000000000002,
+      "score": 3.994729150536253
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.8,
+      "score": 3.9958522259124734
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.9000000000000001,
+      "score": 3.99696201346325
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.0,
+      "score": 3.9980587874013596
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.1,
+      "score": 3.9991428113806027
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.2,
+      "score": 4.000214339216278
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.3000000000000003,
+      "score": 4.001273615531622
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.4000000000000004,
+      "score": 4.002320876340228
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.5,
+      "score": 4.003356349572773
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.6,
+      "score": 4.004380255555118
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.7,
+      "score": 4.005392807443703
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.8000000000000003,
+      "score": 4.006394211623299
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 2.9000000000000004,
+      "score": 4.0073846680714595
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "spectral_entropy",
+      "x_value": 3.0,
+      "score": 4.00836437069336
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.0,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.1,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.2,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.30000000000000004,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.4,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.5,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.6000000000000001,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.7000000000000001,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.8,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 0.9,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.0,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.1,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.2000000000000002,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.3,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.4000000000000001,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.5,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.6,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.7000000000000002,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.8,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 1.9000000000000001,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.0,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.1,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.2,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.3000000000000003,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.4000000000000004,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.5,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.6,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.7,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.8000000000000003,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 2.9000000000000004,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "resolution_cost",
+      "x_value": 3.0,
+      "score": 81.47295320191117
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.0,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.1,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.2,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.30000000000000004,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.4,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.5,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.6000000000000001,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.7000000000000001,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.8,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.9,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.0,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.1,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.2000000000000002,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.3,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.4000000000000001,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.5,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.6,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.7000000000000002,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.8,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.9000000000000001,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.0,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.1,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.2,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.3000000000000003,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.4000000000000004,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.5,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.6,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.7,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.8000000000000003,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 2.9000000000000004,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 3.0,
+      "score": 32.0
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.0,
+      "score": 66.97326156606339
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.1,
+      "score": 66.97466948066022
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.2,
+      "score": 66.9760562156311
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.30000000000000004,
+      "score": 66.9774225719979
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.4,
+      "score": 66.97876927021275
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.5,
+      "score": 66.98009696487905
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.6000000000000001,
+      "score": 66.98140625579319
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.7000000000000001,
+      "score": 66.98269769642292
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.8,
+      "score": 66.98397180055025
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.9,
+      "score": 66.98522904756864
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.0,
+      "score": 66.98646988677199
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.1,
+      "score": 66.98769474087528
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.2000000000000002,
+      "score": 66.98890400893923
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.3,
+      "score": 66.99009806882621
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.4000000000000001,
+      "score": 66.99127727928291
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.5,
+      "score": 66.99244198172164
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.6,
+      "score": 66.9935925017563
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.7000000000000002,
+      "score": 66.99472915053626
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.8,
+      "score": 66.99585222591247
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.9000000000000001,
+      "score": 66.99696201346326
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.0,
+      "score": 66.99805878740136
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.1,
+      "score": 66.9991428113806
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.2,
+      "score": 67.00021433921628
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.3000000000000003,
+      "score": 67.00127361553162
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.4000000000000004,
+      "score": 67.00232087634024
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.5,
+      "score": 67.00335634957277
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.6,
+      "score": 67.0043802555551
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.7,
+      "score": 67.0053928074437
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.8000000000000003,
+      "score": 67.0063942116233
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 2.9000000000000004,
+      "score": 67.00738466807147
+    },
+    {
+      "experiment": "synthetic_spectrum",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 3.0,
+      "score": 67.00836437069336
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.2,
+      "score": 13.077499366402305
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.19,
+      "score": 14.666504737482104
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.18000000000000002,
+      "score": 16.659220893203653
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.17,
+      "score": 19.19504281044982
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.16,
+      "score": 22.47646168925409
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.15000000000000002,
+      "score": 26.805049344022013
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.14,
+      "score": 32.64248398767474
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.13,
+      "score": 40.71747767891882
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.12000000000000001,
+      "score": 52.22009903567654
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.11000000000000001,
+      "score": 69.16980993292609
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.1,
+      "score": 95.14620969495972
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.09000000000000001,
+      "score": 136.82135675189227
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.08000000000000002,
+      "score": 207.3846134878261
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.07,
+      "score": 334.79578835825555
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.06,
+      "score": 583.5340918096581
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.05000000000000002,
+      "score": 1118.3403525356787
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.04000000000000001,
+      "score": 2415.6419895555073
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.03,
+      "score": 6062.000812157239
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.020000000000000018,
+      "score": 17965.537410331537
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": -0.010000000000000009,
+      "score": 56006.940146823035
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.0,
+      "score": 100993.78347021063
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.009999999999999981,
+      "score": 56006.940146823035
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.01999999999999999,
+      "score": 17965.537410331548
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.03,
+      "score": 6062.000812157239
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.03999999999999998,
+      "score": 2415.6419895555073
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.04999999999999999,
+      "score": 1118.3403525356787
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.06,
+      "score": 583.5340918096562
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.07,
+      "score": 334.7957883582543
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.08000000000000002,
+      "score": 207.38461348782553
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.08999999999999997,
+      "score": 136.82135675189255
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.09999999999999998,
+      "score": 95.14620969495974
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.10999999999999999,
+      "score": 69.16980993292609
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.12,
+      "score": 52.22009903567657
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.13,
+      "score": 40.71747767891883
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.14,
+      "score": 32.642483987674744
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.15000000000000002,
+      "score": 26.805049344022013
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.15999999999999998,
+      "score": 22.476461689254133
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.16999999999999998,
+      "score": 19.19504281044986
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.18,
+      "score": 16.659220893203678
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.19,
+      "score": 14.666504737482107
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.2,
+      "score": 13.077499366402309
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.2,
+      "score": 3.2180904207089345
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.19,
+      "score": 3.1668790688063684
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.18000000000000002,
+      "score": 3.111528058745289
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.17,
+      "score": 3.0514379631848114
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.16,
+      "score": 2.985868600134542
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.15000000000000002,
+      "score": 2.9138971313072126
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.14,
+      "score": 2.8343642631894816
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.13,
+      "score": 2.74580717564173
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.12000000000000001,
+      "score": 2.6463801393194375
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.11000000000000001,
+      "score": 2.5337695023742066
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.1,
+      "score": 2.405122020430843
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.09000000000000001,
+      "score": 2.2570297053796593
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.08000000000000002,
+      "score": 2.0856581512085177
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.07,
+      "score": 1.887176286469363
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.06,
+      "score": 1.6587412701816537
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.05000000000000002,
+      "score": 1.4003744608794562
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.04000000000000001,
+      "score": 1.1180157773292436
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.03,
+      "score": 0.8276510747303071
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.020000000000000018,
+      "score": 0.5594975038756693
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": -0.010000000000000009,
+      "score": 0.35981155025472367
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.0,
+      "score": 0.2834969877058589
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.009999999999999981,
+      "score": 0.35981155025472367
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.01999999999999999,
+      "score": 0.5594975038756692
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.03,
+      "score": 0.827651074730307
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.03999999999999998,
+      "score": 1.1180157773292438
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.04999999999999999,
+      "score": 1.4003744608794566
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.06,
+      "score": 1.658741270181655
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.07,
+      "score": 1.8871762864693649
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.08000000000000002,
+      "score": 2.085658151208519
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.08999999999999997,
+      "score": 2.257029705379659
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.09999999999999998,
+      "score": 2.405122020430843
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.10999999999999999,
+      "score": 2.533769502374207
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.12,
+      "score": 2.646380139319437
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.13,
+      "score": 2.74580717564173
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.14,
+      "score": 2.8343642631894808
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.15000000000000002,
+      "score": 2.913897131307212
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.15999999999999998,
+      "score": 2.985868600134541
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.16999999999999998,
+      "score": 3.051437963184811
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.18,
+      "score": 3.1115280587452876
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.19,
+      "score": 3.166879068806368
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.2,
+      "score": 3.2180904207089345
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.2,
+      "score": 28.931443431034836
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.19,
+      "score": 31.894720541550246
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.18000000000000002,
+      "score": 35.35556486417501
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.17,
+      "score": 39.4324777758672
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.16,
+      "score": 44.281468514535526
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.15000000000000002,
+      "score": 50.1111863541009
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.14,
+      "score": 57.20562185764811
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.13,
+      "score": 65.95899088304043
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.12000000000000001,
+      "score": 76.93080725451313
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.11000000000000001,
+      "score": 90.93553052612722
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.1,
+      "score": 109.1936787421966
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.09000000000000001,
+      "score": 133.59694813138245
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.08000000000000002,
+      "score": 167.19527366890054
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.07,
+      "score": 215.1403493970583
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.06,
+      "score": 286.6275941797932
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.05000000000000002,
+      "score": 399.1714616303262
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.04000000000000001,
+      "score": 588.6740182130277
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.03,
+      "score": 934.0403358350943
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.020000000000000018,
+      "score": 1608.811176977593
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": -0.010000000000000009,
+      "score": 2840.705077537288
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.0,
+      "score": 3814.514696385841
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.009999999999999981,
+      "score": 2840.705077537288
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.01999999999999999,
+      "score": 1608.8111769775935
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.03,
+      "score": 934.0403358350943
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.03999999999999998,
+      "score": 588.6740182130277
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.04999999999999999,
+      "score": 399.1714616303262
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.06,
+      "score": 286.6275941797927
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.07,
+      "score": 215.1403493970579
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.08000000000000002,
+      "score": 167.19527366890028
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.08999999999999997,
+      "score": 133.5969481313826
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.09999999999999998,
+      "score": 109.1936787421966
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.10999999999999999,
+      "score": 90.93553052612722
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.12,
+      "score": 76.93080725451317
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.13,
+      "score": 65.95899088304044
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.14,
+      "score": 57.205621857648126
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.15000000000000002,
+      "score": 50.1111863541009
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.15999999999999998,
+      "score": 44.28146851453559
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.16999999999999998,
+      "score": 39.432477775867255
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.18,
+      "score": 35.35556486417505
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.19,
+      "score": 31.894720541550246
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "resolution_cost",
+      "x_value": 0.2,
+      "score": 28.931443431034847
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.2,
+      "score": 1.9488906186566
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.19,
+      "score": 2.0315477753798046
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.18000000000000002,
+      "score": 2.1237521482677075
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.17,
+      "score": 2.2273525432038124
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.16,
+      "score": 2.3447522489517865
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.15000000000000002,
+      "score": 2.4791193810869037
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.14,
+      "score": 2.6347197068679833
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.13,
+      "score": 2.8174327123889706
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.12000000000000001,
+      "score": 3.035573365638555
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.11000000000000001,
+      "score": 3.3012400312261634
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.1,
+      "score": 3.6326008153447815
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.09000000000000001,
+      "score": 4.05792361441952
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.08000000000000002,
+      "score": 4.6230027052963525
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.07,
+      "score": 5.405569910653586
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.06,
+      "score": 6.544976549753525
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.05000000000000002,
+      "score": 8.30754599802346
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.04000000000000001,
+      "score": 11.240460324453204
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.03,
+      "score": 16.547915346820634
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.020000000000000018,
+      "score": 26.880059265558906
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": -0.010000000000000009,
+      "score": 45.71499291286777
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.0,
+      "score": 60.59751279284282
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.009999999999999981,
+      "score": 45.71499291286778
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.01999999999999999,
+      "score": 26.880059265558916
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.03,
+      "score": 16.547915346820634
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.03999999999999998,
+      "score": 11.240460324453204
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.04999999999999999,
+      "score": 8.30754599802346
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.06,
+      "score": 6.544976549753517
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.07,
+      "score": 5.405569910653579
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.08000000000000002,
+      "score": 4.623002705296348
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.08999999999999997,
+      "score": 4.057923614419523
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.09999999999999998,
+      "score": 3.6326008153447815
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.10999999999999999,
+      "score": 3.3012400312261634
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.12,
+      "score": 3.0355733656385557
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.13,
+      "score": 2.817432712388971
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.14,
+      "score": 2.6347197068679833
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.15000000000000002,
+      "score": 2.4791193810869037
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.15999999999999998,
+      "score": 2.3447522489517874
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.16999999999999998,
+      "score": 2.2273525432038137
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.18,
+      "score": 2.1237521482677084
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.19,
+      "score": 2.031547775379805
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.2,
+      "score": 1.9488906186566006
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.2,
+      "score": 28.995935234223758
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.19,
+      "score": 31.656978554693403
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.18000000000000002,
+      "score": 34.77298597999272
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.17,
+      "score": 38.45274730889756
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.16,
+      "score": 42.83940193302129
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.15000000000000002,
+      "score": 48.124253842493715
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.14,
+      "score": 54.56749417389865
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.13,
+      "score": 62.53005164631611
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.12000000000000001,
+      "score": 72.52390319301817
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.11000000000000001,
+      "score": 85.29403403050334
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.1,
+      "score": 101.95671633309479
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.09000000000000001,
+      "score": 124.24232497201896
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.08000000000000002,
+      "score": 154.9417432968847
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.07,
+      "score": 198.77153464917689
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.06,
+      "score": 264.15500597278066
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.05000000000000002,
+      "score": 367.1432079349154
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.04000000000000001,
+      "score": 540.6477926518583
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.03,
+      "score": 857.0097239377089
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.020000000000000018,
+      "score": 1475.3340827040283
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": -0.010000000000000009,
+      "score": 2604.4058992870177
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.0,
+      "score": 3497.001998344946
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.009999999999999981,
+      "score": 2604.4058992870177
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.01999999999999999,
+      "score": 1475.3340827040288
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.03,
+      "score": 857.0097239377089
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.03999999999999998,
+      "score": 540.6477926518583
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.04999999999999999,
+      "score": 367.1432079349154
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.06,
+      "score": 264.1550059727802
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.07,
+      "score": 198.77153464917652
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.08000000000000002,
+      "score": 154.94174329688448
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.08999999999999997,
+      "score": 124.24232497201909
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.09999999999999998,
+      "score": 101.95671633309479
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.10999999999999999,
+      "score": 85.29403403050334
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.12,
+      "score": 72.52390319301821
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.13,
+      "score": 62.530051646316124
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.14,
+      "score": 54.56749417389866
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.15000000000000002,
+      "score": 48.124253842493715
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.15999999999999998,
+      "score": 42.83940193302135
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.16999999999999998,
+      "score": 38.452747308897614
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.18,
+      "score": 34.77298597999276
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.19,
+      "score": 31.6569785546934
+    },
+    {
+      "experiment": "riemann_sweep",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.2,
+      "score": 28.995935234223772
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.0,
+      "score": 4.344823711393932
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.01,
+      "score": 4.3442729889424685
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.02,
+      "score": 4.343178905503862
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.03,
+      "score": 4.34174985195503
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.04,
+      "score": 4.340027745704322
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.05,
+      "score": 4.33803035112005
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.06,
+      "score": 4.3357659948900595
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.07,
+      "score": 4.333237971181728
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.08,
+      "score": 4.33044627325635
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.09,
+      "score": 4.327388327488148
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.1,
+      "score": 4.324059234937531
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.11,
+      "score": 4.320451670756688
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.12,
+      "score": 4.316555414512133
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.13,
+      "score": 4.312356279589893
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.14,
+      "score": 4.307833712141644
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.15,
+      "score": 4.302954461114363
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.16,
+      "score": 4.297647970362586
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.17,
+      "score": 4.292548169961814
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.18,
+      "score": 4.288425631565044
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.19,
+      "score": 4.28379760403123
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.2,
+      "score": 4.278744080654252
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.21,
+      "score": 4.273277842753536
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.22,
+      "score": 4.267389635112927
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.23,
+      "score": 4.261052744225309
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.24,
+      "score": 4.254211345259887
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.25,
+      "score": 4.246642920330584
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.0,
+      "score": 4.330799256682836
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.01,
+      "score": 4.328601436667739
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.02,
+      "score": 4.325669901364963
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.03,
+      "score": 4.322212987846879
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.04,
+      "score": 4.3182725600317475
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.05,
+      "score": 4.313866329110205
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.06,
+      "score": 4.309002568902813
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.07,
+      "score": 4.303684521018056
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.08,
+      "score": 4.29791212646472
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.09,
+      "score": 4.291682759668939
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.1,
+      "score": 4.284991470045484
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.11,
+      "score": 4.277830881401401
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.12,
+      "score": 4.27019072225663
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.13,
+      "score": 4.2620567552472615
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.14,
+      "score": 4.253408376069771
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.15,
+      "score": 4.244212283508779
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.16,
+      "score": 4.234397871547418
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.17,
+      "score": 4.224680621149984
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.18,
+      "score": 4.215912816024278
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.19,
+      "score": 4.2064485185614
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.2,
+      "score": 4.19636765180605
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.21,
+      "score": 4.1856829274387035
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.22,
+      "score": 4.174385021208629
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.23,
+      "score": 4.162447151172728
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.24,
+      "score": 4.149813424657102
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.25,
+      "score": 4.136261256519788
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.0,
+      "score": 1.6668827404951554
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.01,
+      "score": 1.6719778200659654
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.02,
+      "score": 1.6774891323831118
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.03,
+      "score": 1.6833791526689388
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.04,
+      "score": 1.6896125922850225
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.05,
+      "score": 1.6961567145741239
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.06,
+      "score": 1.702981472533782
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.07,
+      "score": 1.7100595146891726
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.08,
+      "score": 1.7173660995438775
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.09,
+      "score": 1.7382122846613468
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.1,
+      "score": 1.765911415425897
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.11,
+      "score": 1.7937789317320634
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.12,
+      "score": 1.8217988386027604
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.13,
+      "score": 1.849956849068466
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.14,
+      "score": 1.8782402044177355
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.15,
+      "score": 1.9066375079578646
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.16,
+      "score": 1.9351385735022564
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.17,
+      "score": 1.9569180656785488
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.18,
+      "score": 1.9651678536790853
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.19,
+      "score": 1.9735199176960325
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.2,
+      "score": 1.981966130172013
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.21,
+      "score": 1.993832457771341
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.22,
+      "score": 2.022445551520389
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.23,
+      "score": 2.051132677627289
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.24,
+      "score": 2.079888321846603
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "resolution_cost",
+      "x_value": 0.25,
+      "score": 2.108707466864157
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.0,
+      "score": 0.18892715194681878
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.01,
+      "score": 0.2079271519468188
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.02,
+      "score": 0.22692715194681884
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.03,
+      "score": 0.24592715194681886
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.04,
+      "score": 0.2649271519468188
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.05,
+      "score": 0.28392715194681883
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.06,
+      "score": 0.30292715194681885
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.07,
+      "score": 0.32192715194681887
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.08,
+      "score": 0.3409271519468188
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.09,
+      "score": 0.35992715194681874
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.1,
+      "score": 0.37892715194681875
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.11,
+      "score": 0.3979271519468188
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.12,
+      "score": 0.4169271519468188
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.13,
+      "score": 0.43592715194681875
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.14,
+      "score": 0.4549271519468189
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.15,
+      "score": 0.4739271519468188
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.16,
+      "score": 0.4929271519468189
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.17,
+      "score": 0.5117604852801522
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.18,
+      "score": 0.530260485280152
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.19,
+      "score": 0.5487604852801521
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.2,
+      "score": 0.567260485280152
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.21,
+      "score": 0.585760485280152
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.22,
+      "score": 0.6042604852801521
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.23,
+      "score": 0.6227604852801522
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.24,
+      "score": 0.6412604852801521
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.25,
+      "score": 0.6597604852801522
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.0,
+      "score": 5.830799256682836
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.01,
+      "score": 5.828601436667739
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.02,
+      "score": 5.825669901364963
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.03,
+      "score": 5.822212987846879
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.04,
+      "score": 5.8182725600317475
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.05,
+      "score": 5.813866329110205
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.06,
+      "score": 5.809002568902813
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.07,
+      "score": 5.803684521018056
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.08,
+      "score": 5.79791212646472
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.09,
+      "score": 5.805016093002273
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.1,
+      "score": 5.818324803378817
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.11,
+      "score": 5.831164214734734
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.12,
+      "score": 5.843524055589963
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.13,
+      "score": 5.855390088580595
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.14,
+      "score": 5.8667417094031045
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.15,
+      "score": 5.877545616842113
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.16,
+      "score": 5.887731204880751
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.17,
+      "score": 5.89134728781665
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.18,
+      "score": 5.882579482690945
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.19,
+      "score": 5.873115185228066
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.2,
+      "score": 5.863034318472717
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.21,
+      "score": 5.8556829274387034
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.22,
+      "score": 5.864385021208628
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.23,
+      "score": 5.872447151172728
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.24,
+      "score": 5.879813424657103
+    },
+    {
+      "experiment": "offline_pair_test",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.25,
+      "score": 5.886261256519788
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.0,
+      "score": 5.505581188292829
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.05,
+      "score": 5.509334419437087
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.1,
+      "score": 5.5120157149819695
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.15000000000000002,
+      "score": 5.5137736673519875
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.2,
+      "score": 5.5142934487914586
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.25,
+      "score": 5.514269458735133
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.30000000000000004,
+      "score": 5.511929458888557
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.35000000000000003,
+      "score": 5.513475070449851
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.4,
+      "score": 5.51728786335837
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.45,
+      "score": 5.520529305795129
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.5,
+      "score": 5.523733288163135
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.55,
+      "score": 5.524885888713962
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.6000000000000001,
+      "score": 5.526320778211168
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.65,
+      "score": 5.525744350505933
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.7000000000000001,
+      "score": 5.530353890017129
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.75,
+      "score": 5.539477065582529
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.8,
+      "score": 5.548950152703681
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.8500000000000001,
+      "score": 5.5599385710928235
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.9,
+      "score": 5.5713344860613985
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 0.9500000000000001,
+      "score": 5.5844867553546305
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_spread_minus_concentration",
+      "x_value": 1.0,
+      "score": 5.599321794344286
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.0,
+      "score": 5.428288686313557
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.05,
+      "score": 5.43271364351327
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.1,
+      "score": 5.434043701807433
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.15000000000000002,
+      "score": 5.4323178619894055
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.2,
+      "score": 5.427076042539451
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.25,
+      "score": 5.419177543624837
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.30000000000000004,
+      "score": 5.406552288400016
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.35000000000000003,
+      "score": 5.397339049960113
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.4,
+      "score": 5.389562556395521
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.45,
+      "score": 5.37942027755429
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.5,
+      "score": 5.3673543850696195
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.55,
+      "score": 5.350876482525632
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.6000000000000001,
+      "score": 5.332974891011101
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.65,
+      "score": 5.311071645987514
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.7000000000000001,
+      "score": 5.295168341405456
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.75,
+      "score": 5.28472799869676
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.8,
+      "score": 5.274135140805143
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.8500000000000001,
+      "score": 5.264893776073431
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.9,
+      "score": 5.255648414988131
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 0.9500000000000001,
+      "score": 5.24857690859046
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "spectral_entropy",
+      "x_value": 1.0,
+      "score": 5.243867475170434
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.0,
+      "score": 1.2861116437951796
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.05,
+      "score": 1.3259510386609907
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.1,
+      "score": 1.3775779948833726
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.15000000000000002,
+      "score": 1.4328726855715992
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.2,
+      "score": 1.491857193957797
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.25,
+      "score": 1.5539268564993665
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.30000000000000004,
+      "score": 1.6198220727250656
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.35000000000000003,
+      "score": 1.68570144282336
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.4,
+      "score": 1.7520251000127876
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.45,
+      "score": 1.8200105266116136
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.5,
+      "score": 1.8895481039986242
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.55,
+      "score": 1.9609875622002586
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.6000000000000001,
+      "score": 2.033311996553252
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.65,
+      "score": 2.1067000101999716
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.7000000000000001,
+      "score": 2.1781200794584725
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.75,
+      "score": 2.24768629341788
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.8,
+      "score": 2.316991762484056
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.8500000000000001,
+      "score": 2.3857524798262464
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.9,
+      "score": 2.454243594734889
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 0.9500000000000001,
+      "score": 2.52177598290268
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "resolution_cost",
+      "x_value": 1.0,
+      "score": 2.588215264474242
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.0,
+      "score": 0.46316320577408454
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.05,
+      "score": 0.4654282095826995
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.1,
+      "score": 0.4700892643273458
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.15000000000000002,
+      "score": 0.4821570775517131
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.2,
+      "score": 0.49897080040286895
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.25,
+      "score": 0.5217510049820933
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.30000000000000004,
+      "score": 0.551852591071466
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.35000000000000003,
+      "score": 0.5848899489380875
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.4,
+      "score": 0.6178829203148386
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.45,
+      "score": 0.6515517645777165
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.5,
+      "score": 0.6859802537686638
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.55,
+      "score": 0.7225575232162067
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.6000000000000001,
+      "score": 0.7618371824236103
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.65,
+      "score": 0.8024339631666018
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.7000000000000001,
+      "score": 0.8418588053207702
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.75,
+      "score": 0.8797860882081653
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.8,
+      "score": 0.9167688030413167
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.8500000000000001,
+      "score": 0.9516564982088686
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.9,
+      "score": 0.9847505534911783
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 0.9500000000000001,
+      "score": 1.0153294803000485
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "symmetry_pair_penalty",
+      "x_value": 1.0,
+      "score": 1.0429914545977483
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.0,
+      "score": 6.4282121977015745
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.05,
+      "score": 6.47366800970462
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.1,
+      "score": 6.524250341164645
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.15000000000000002,
+      "score": 6.571776774512482
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.2,
+      "score": 6.61578722822839
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.25,
+      "score": 6.65714100247964
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.30000000000000004,
+      "score": 6.69441327707461
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.35000000000000003,
+      "score": 6.73513885944542
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.4,
+      "score": 6.777301186691542
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.45,
+      "score": 6.8170977286610235
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.5,
+      "score": 6.854970656987065
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.55,
+      "score": 6.888431575253792
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.6000000000000001,
+      "score": 6.920468804549973
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.65,
+      "score": 6.948504380337099
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.7000000000000001,
+      "score": 6.982539896565754
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.75,
+      "score": 7.022038374667772
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.8,
+      "score": 7.061384337586867
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.8500000000000001,
+      "score": 7.102081793665869
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.9,
+      "score": 7.142775253391282
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 0.9500000000000001,
+      "score": 7.185642567804323
+    },
+    {
+      "experiment": "sanity_check",
+      "functional_name": "entropy_plus_resolution",
+      "x_value": 1.0,
+      "score": 7.230871955195012
+    }
+  ]
+}

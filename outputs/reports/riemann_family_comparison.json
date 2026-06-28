@@ -1,0 +1,55 @@
+{
+  "recommendation": "use symmetry-mismatch benchmarks for VIM, preserve raw Xi'/Xi benchmark as a negative control",
+  "variants": [
+    {
+      "name": "riemann_sweep",
+      "objective_type": "singularity-based",
+      "minimum_eps": -0.2,
+      "pass_fail": "FAIL",
+      "interpretation": "Negative control: raw singular ratio remains edge-biased and is dominated by zero-line spikes."
+    },
+    {
+      "name": "riemann_principal_value",
+      "objective_type": "regularized-singularity",
+      "minimum_eps": -0.2,
+      "pass_fail": "FAIL",
+      "interpretation": "Reduces or caps pole influence, but still tracks the edge in this implementation."
+    },
+    {
+      "name": "riemann_regularized_log",
+      "objective_type": "regularized-singularity",
+      "minimum_eps": -0.2,
+      "pass_fail": "FAIL",
+      "interpretation": "Reduces or caps pole influence, but still tracks the edge in this implementation."
+    },
+    {
+      "name": "riemann_zero_attraction",
+      "objective_type": "attraction-based",
+      "minimum_eps": 0.0,
+      "pass_fail": "PASS",
+      "interpretation": "Passes by construction for critical-line attraction, but it is a different objective from symmetry-minimality."
+    },
+    {
+      "name": "riemann_logxi_symmetry_mismatch",
+      "objective_type": "symmetry-mismatch-based",
+      "minimum_eps": 0.0,
+      "pass_fail": "PASS",
+      "interpretation": "Best match for a symmetry-minimality test without rewarding singularity avoidance."
+    },
+    {
+      "name": "riemann_zero_density_symmetry_mismatch",
+      "objective_type": "symmetry-mismatch-based",
+      "minimum_eps": 0.0,
+      "pass_fail": "PASS",
+      "interpretation": "Best match for a symmetry-minimality test without rewarding singularity avoidance."
+    },
+    {
+      "name": "riemann_receiver_width_cost",
+      "objective_type": "symmetry-mismatch-based",
+      "minimum_eps": 0.0,
+      "pass_fail": "PASS",
+      "interpretation": "Best match for a symmetry-minimality test without rewarding singularity avoidance."
+    }
+  ],
+  "plot": "outputs/reports/plots/riemann_family_comparison.png"
+}

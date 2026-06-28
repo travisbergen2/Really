@@ -1,0 +1,217 @@
+{
+  "name": "riemann_sweep",
+  "rows": [
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.2,
+      "I2": 20.65376616447603
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.19,
+      "I2": 21.483332099240958
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.18000000000000002,
+      "I2": 22.409267074518947
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.17,
+      "I2": 23.450313430934422
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.16,
+      "I2": 24.630708407368463
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.15000000000000002,
+      "I2": 25.9824016732895
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.14,
+      "I2": 27.548411541368523
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.13,
+      "I2": 29.388029001569333
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.12000000000000001,
+      "I2": 31.58510440323671
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.11000000000000001,
+      "I2": 34.261639868477566
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.1,
+      "I2": 37.60084486781505
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.09000000000000001,
+      "I2": 41.887775362658715
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.08000000000000002,
+      "I2": 47.584223787088334
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.07,
+      "I2": 55.47404172122691
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.06,
+      "I2": 66.96245367756971
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.05000000000000002,
+      "I2": 84.73507450605392
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.04000000000000001,
+      "I2": 114.30970741607148
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.03,
+      "I2": 167.8295041953823
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.020000000000000018,
+      "I2": 272.01864891145203
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": -0.010000000000000009,
+      "I2": 461.9504276491969
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.0,
+      "I2": 612.0261499231958
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.009999999999999981,
+      "I2": 461.9504276491969
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.01999999999999999,
+      "I2": 272.0186489114521
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.03,
+      "I2": 167.8295041953823
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.03999999999999998,
+      "I2": 114.30970741607148
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.04999999999999999,
+      "I2": 84.73507450605393
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.06,
+      "I2": 66.96245367756963
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.07,
+      "I2": 55.47404172122684
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.08000000000000002,
+      "I2": 47.58422378708829
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.08999999999999997,
+      "I2": 41.887775362658736
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.09999999999999998,
+      "I2": 37.60084486781505
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.10999999999999999,
+      "I2": 34.261639868477566
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.12,
+      "I2": 31.585104403236716
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.13,
+      "I2": 29.38802900156934
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.14,
+      "I2": 27.54841154136853
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.15000000000000002,
+      "I2": 25.982401673289502
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.15999999999999998,
+      "I2": 24.630708407368477
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.16999999999999998,
+      "I2": 23.450313430934433
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.18,
+      "I2": 22.409267074518958
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.19,
+      "I2": 21.483332099240958
+    },
+    {
+      "experiment": "riemann_sweep",
+      "eps": 0.2,
+      "I2": 20.653766164476032
+    },
+    {
+      "experiment": "riemann_sweep_verdict",
+      "eps": NaN,
+      "I2": NaN,
+      "passed": false,
+      "reason": "minimum shifted to eps=-0.200000"
+    }
+  ]
+}
