@@ -162,3 +162,22 @@ def list_persona_packs(limit: int = 20) -> dict[str, Any]:
     packs = _persona_state()["packs"][-max(limit, 0) :]
     return {"packs": packs, "count": len(packs)}
 
+class MemoryStore:
+    def add_entry(self, entry_data: dict[str, Any]) -> dict[str, Any]:
+        return create_memory_entry(**entry_data)
+    
+    def list_memory_entries(self, limit: int = 20) -> list[dict[str, Any]]:
+        return list_memory_entries(limit)["entries"]
+    
+    def search_memory(self, query: str, limit: int = 10) -> list[dict[str, Any]]:
+        return search_memory(query, limit)["results"]
+
+class PersonaStore:
+    def create_persona_pack(self, pack_data: dict[str, Any]) -> dict[str, Any]:
+        return create_persona_pack(**pack_data)
+    
+    def list_persona_packs(self, limit: int = 20) -> list[dict[str, Any]]:
+        return list_persona_packs(limit)["packs"]
+    
+    def validate_persona_pack(self, pack: dict[str, Any] | None = None, pack_id: str | None = None) -> dict[str, Any]:
+        return validate_persona_pack(pack, pack_id)

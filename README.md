@@ -108,28 +108,35 @@ If `scipy` is not installed, the Riemann experiment falls back to `mpmath`-only 
 
 ## Translator Hub
 
-The translation layer is now a separate package in this repo and can be run in two ways:
+The translation layer is a multi-module product with versioned manifest, routing logic, persistent memory/persona data, and an MCP transport layer.
+
+### Features
+
+- **Multi-Model Routing**: Intelligently route requests based on task type and audience.
+- **Memory & Personas**: Persistent storage for observations and unique AI personality vectors.
+- **MCP Support**: Real Model Context Protocol transport for tool registration and discovery.
+- **Next.js Web UI**: A modern interface for interacting with the hub.
+- **Vercel Ready**: Optimized for deployment on Vercel with Python serverless functions.
+
+### Run
 
 - Demo CLI:
-
-```bash
-python -m translator_hub.server manifest
-python -m translator_hub.server interpret "your message here"
-python -m translator_hub.server route technical --objective "draft a spec"
-```
+  ```bash
+  python -m translator_hub.server manifest
+  python -m translator_hub.server interpret "your message here"
+  ```
 
 - MCP stdio server:
+  ```bash
+  python -m translator_hub.server serve
+  ```
 
-```bash
-python -m translator_hub.server serve
-```
+- Next.js Web UI (Local):
+  ```bash
+  cd web && npm install && npm run dev
+  ```
 
-- Local browser UI:
+### Integrated SDK
 
-```bash
-python -m translator_hub.server web
-```
+The `rpcs1-sdk` is integrated into this repository for direct access to RPCS-1 core functionalities.
 
-Then open `http://127.0.0.1:8787`.
-
-This code should live on GitHub once you want collaboration, versioned releases, or external integration. It is already structured like a reusable product module, so GitHub is the right home for it.
