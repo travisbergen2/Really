@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RPCS-1 Translation Layer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <style>
+    :root {
+      --bg: #07111f;
+      --panel: rgba(10, 18, 33, 0.72);
+      --panel-strong: rgba(10, 18, 33, 0.92);
+      --line: rgba(148, 163, 184, 0.16);
+      --text: #e5eefc;
+      --muted: #93a4c7;
+      --accent: #7dd3fc;
+      --accent-2: #a78bfa;
+      --accent-3: #34d399;
+      --warning: #fbbf24;
+    }
+    body {
+      background:
+        radial-gradient(circle at top left, rgba(167, 139, 250, 0.18), transparent 24%),
+        radial-gradient(circle at 85% 15%, rgba(125, 211, 252, 0.16), transparent 18%),
+        radial-gradient(circle at 40% 85%, rgba(52, 211, 153, 0.08), transparent 20%),
+        linear-gradient(180deg, #020817 0%, #07111f 56%, #030712 100%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .glass {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: 0 20px 80px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(16px);
+    }
+    .glass-strong {
+      background: var(--panel-strong);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      box-shadow: 0 24px 90px rgba(0, 0, 0, 0.42);
+    }
+    .gridline {
+      background-image: linear-gradient(rgba(148, 163, 184, 0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148, 163, 184, 0.12) 1px, transparent 1px);
+      background-size: 36px 36px;
+      mask-image: radial-gradient(circle at center, black 30%, transparent 100%);
+      opacity: 0.22;
+    }
+    .glow {
+      box-shadow: 0 0 0 1px rgba(125, 211, 252, 0.14), 0 0 60px rgba(125, 211, 252, 0.1);
+    }
+    .chip {
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      background: rgba(15, 23, 42, 0.65);
+    }
+    .step {
+      position: relative;
+    }
+    .step::after {
+      content: "";
+      position: absolute;
+      inset: 50% -1.5rem auto auto;
+      width: 3rem;
+      height: 1px;
+      background: linear-gradient(90deg, rgba(125, 211, 252, 0.65), rgba(167, 139, 250, 0.15));
+    }
+    .step:last-child::after { display: none; }
+    textarea::placeholder {
+      color: rgba(148, 163, 184, 0.78);
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="min-h-screen">
+    <div class="gridline fixed inset-0 pointer-events-none"></div>
+    <main class="relative mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      <section class="mb-6 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+        <div class="max-w-3xl">
+          <div class="mb-3 inline-flex items-center gap-2 rounded-full chip px-3 py-1 text-xs uppercase tracking-[0.28em] text-slate-300">
+            RPCS-1
+            <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+            translation bridge
+          </div>
+          <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+            Say what you mean.
+            <span class="bg-gradient-to-r from-sky-300 via-violet-300 to-emerald-300 bg-clip-text text-transparent">
+              Hear what they meant.
+            </span>
+          </h1>
+          <p class="mt-4 max-w-2xl text-base leading-7 text-slate-300">
+            RPCS-1 sits between human intent and machine interpretation. It cleans up compressed thoughts,
+            detects where people or models may misread, and rewrites output for the receiver you actually have.
+          </p>
+        </div>
+        <div class="grid gap-3 sm:grid-cols-3 lg:w-[28rem]">
+          <div class="glass rounded-2xl p-4">
+            <div class="text-xs uppercase tracking-[0.24em] text-slate-400">Intent</div>
+            <div class="mt-2 text-2xl font-semibold text-white">{{ interpretation.confidence ? Math.round(interpretation.confidence * 100) : 0 }}%</div>
+            <div class="mt-1 text-sm text-slate-400">confidence</div>
+          </div>
+          <div class="glass rounded-2xl p-4">
+            <div class="text-xs uppercase tracking-[0.24em] text-slate-400">Ambiguity</div>
+            <div class="mt-2 text-2xl font-semibold text-white">{{ interpretation.ambiguities ? interpretation.ambiguities.length : 0 }}</div>
+            <div class="mt-1 text-sm text-slate-400">possible misreads</div>
+          </div>
+          <div class="glass rounded-2xl p-4">
+            <div class="text-xs uppercase tracking-[0.24em] text-slate-400">Route</div>
+            <div class="mt-2 text-2xl font-semibold text-white">{{ route.primary_model || 'openai' }}</div>
+            <div class="mt-1 text-sm text-slate-400">primary model</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid gap-6 xl:grid-cols-[1.4fr_0.95fr]">
+        <div class="space-y-6">
+          <div class="glass-strong rounded-[2rem] p-5 sm:p-6">
+            <div class="flex flex-col gap-4 border-b border-white/10 pb-5 lg:flex-row lg:items-center lg:justify-between">
+              <div>
+                <h2 class="text-xl font-semibold text-white">Free interpreter</h2>
+                <p class="mt-1 text-sm text-slate-400">This is the layer that keeps you from being misread before the rest of the stack comes in.</p>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <button v-for="sample in samples" :key="sample.label" @click="loadSample(sample.text)" class="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 transition hover:bg-white/10">
+                  {{ sample.label }}
+                </button>
+              </div>
+            </div>
+
+            <div class="mt-5 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+              <div class="space-y-4">
+                <label class="block text-sm font-medium text-slate-200">Raw message</label>
+                <textarea v-model="message" @input="debounceUpdate" rows="11" class="w-full rounded-3xl border border-white/10 bg-slate-950/70 px-5 py-4 text-[15px] leading-7 text-white outline-none transition focus:border-sky-300/50 focus:ring-2 focus:ring-sky-300/20" placeholder="Type the compressed thought, rough draft, or messy sentence you want translated..."></textarea>
+
+                <div class="grid gap-3 sm:grid-cols-2">
+                  <div>
+                    <label class="mb-2 block text-xs uppercase tracking-[0.22em] text-slate-400">Target audience</label>
+                    <select v-model="targetAudience" @change="updateAll" class="w-full rounded-2xl border border-white/10 bg-slate-950/80 px-4 py-3 text-sm text-white outline-none focus:border-violet-300/50">
+                      <option>plain</option>
+                      <option>technical</option>
+                      <option>social</option>
+                      <option>concise</option>
+                      <option>detailed</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="mb-2 block text-xs uppercase tracking-[0.22em] text-slate-400">Route type</label>
+                    <select v-model="taskType" @change="updateRoute" class="w-full rounded-2xl border border-white/10 bg-slate-950/80 px-4 py-3 text-sm text-white outline-none focus:border-violet-300/50">
+                      <option>interpretation</option>
+                      <option>technical</option>
+                      <option>analysis</option>
+                      <option>social</option>
+                      <option>concise</option>
+                      <option>persona</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <button @click="updateAll" class="rounded-full bg-gradient-to-r from-sky-400 to-violet-400 px-5 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-sky-400/20 transition hover:scale-[1.01]">
+                    Translate now
+                  </button>
+                  <button @click="normalizeOnly" class="rounded-full border border-white/12 bg-white/5 px-5 py-3 text-sm font-medium text-slate-100 transition hover:bg-white/10">
+                    Normalize input
+                  </button>
+                  <button @click="clearAll" class="rounded-full border border-white/12 px-5 py-3 text-sm font-medium text-slate-300 transition hover:border-white/20 hover:bg-white/5">
+                    Clear
+                  </button>
+                </div>
+              </div>
+
+              <div class="space-y-4">
+                <div class="glass rounded-3xl p-4">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-400">Interpretation</h3>
+                    <span class="rounded-full bg-emerald-400/10 px-2.5 py-1 text-[11px] text-emerald-300">{{ interpretation.suggested_next_step || 'waiting' }}</span>
+                  </div>
+                  <div class="mt-4 rounded-2xl border border-white/8 bg-slate-950/40 p-4">
+                    <div class="text-xs uppercase tracking-[0.2em] text-slate-500">Literal summary</div>
+                    <p class="mt-2 text-sm leading-6 text-white">{{ interpretation.literal_summary || 'No input yet.' }}</p>
+                  </div>
+                  <div class="mt-4 rounded-2xl border border-white/8 bg-slate-950/40 p-4">
+                    <div class="text-xs uppercase tracking-[0.2em] text-slate-500">Implied meaning</div>
+                    <p class="mt-2 text-sm leading-6 text-slate-200">{{ interpretation.implied_meaning || 'Awaiting translation.' }}</p>
+                  </div>
+                </div>
+
+                <div class="glass rounded-3xl p-4">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-400">Ambiguity</h3>
+                    <span class="text-xs text-slate-500">{{ interpretation.ambiguities ? interpretation.ambiguities.length : 0 }} flags</span>
+                  </div>
+                  <ul class="mt-4 space-y-2">
+                    <li v-for="item in interpretation.ambiguities || []" :key="item" class="rounded-2xl border border-amber-300/15 bg-amber-300/5 px-4 py-3 text-sm text-amber-100">
+                      {{ item }}
+                    </li>
+                    <li v-if="!interpretation.ambiguities || !interpretation.ambiguities.length" class="rounded-2xl border border-emerald-300/15 bg-emerald-300/5 px-4 py-3 text-sm text-emerald-100">
+                      No obvious ambiguity detected.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-strong rounded-[2rem] p-5 sm:p-6">
+            <div class="flex flex-col gap-3 border-b border-white/10 pb-4 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <h2 class="text-xl font-semibold text-white">Response normalization</h2>
+                <p class="mt-1 text-sm text-slate-400">This is the part that makes the AI answer land in the user’s actual cognitive style.</p>
+              </div>
+              <div class="inline-flex flex-wrap gap-2">
+                <button v-for="style in styles" :key="style" @click="rewriteStyle = style; rewrite()" :class="styleButtonClass(style)">
+                  {{ style }}
+                </button>
+              </div>
+            </div>
+
+            <div class="mt-5 grid gap-4 lg:grid-cols-2">
+              <div class="rounded-3xl border border-white/10 bg-slate-950/60 p-4">
+                <div class="text-xs uppercase tracking-[0.2em] text-slate-500">Clean prompt</div>
+                <p class="mt-3 whitespace-pre-wrap text-sm leading-7 text-slate-100">{{ normalized.clean_prompt || 'Normalized output appears here.' }}</p>
+              </div>
+              <div class="rounded-3xl border border-white/10 bg-slate-950/60 p-4">
+                <div class="text-xs uppercase tracking-[0.2em] text-slate-500">AI-ready rewrite</div>
+                <p class="mt-3 whitespace-pre-wrap text-sm leading-7 text-slate-100">{{ rewriteResult.rewritten_text || 'Choose a style to generate a rewritten response.' }}</p>
+                <div class="mt-4 space-y-2 text-xs text-slate-400">
+                  <div v-for="note in rewriteResult.tone_notes || []" :key="note" class="rounded-xl border border-white/8 bg-white/5 px-3 py-2">
+                    {{ note }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="space-y-6">
+          <div class="glass-strong rounded-[2rem] p-5 sm:p-6">
+            <div class="flex items-center justify-between">
+              <div>
+                <h2 class="text-lg font-semibold text-white">Model routing</h2>
+                <p class="mt-1 text-sm text-slate-400">Specialist models are later; the bridge comes first.</p>
+              </div>
+              <span class="rounded-full bg-violet-400/10 px-2.5 py-1 text-[11px] text-violet-200">smart default</span>
+            </div>
+
+            <div class="mt-4 rounded-3xl border border-white/10 bg-slate-950/60 p-4">
+              <div class="text-xs uppercase tracking-[0.24em] text-slate-500">Primary model</div>
+              <div class="mt-2 text-2xl font-semibold text-white">{{ route.primary_model || 'openai' }}</div>
+              <div class="mt-3 text-sm leading-6 text-slate-300">{{ route.routing_reason || 'Waiting for routing recommendation.' }}</div>
+            </div>
+
+            <div class="mt-4 grid gap-3 sm:grid-cols-2">
+              <div class="rounded-2xl border border-white/8 bg-white/5 p-4">
+                <div class="text-xs uppercase tracking-[0.2em] text-slate-500">Fallbacks</div>
+                <div class="mt-2 text-sm text-slate-200">{{ (route.fallback_models || []).join(', ') || 'none yet' }}</div>
+              </div>
+              <div class="rounded-2xl border border-white/8 bg-white/5 p-4">
+                <div class="text-xs uppercase tracking-[0.2em] text-slate-500">Multi-model</div>
+                <div class="mt-2 text-sm text-slate-200">{{ route.allow_multi_model ? 'enabled' : 'off' }}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-strong rounded-[2rem] p-5 sm:p-6">
+            <h2 class="text-lg font-semibold text-white">Four-pass pipeline</h2>
+            <div class="mt-5 space-y-4">
+              <div v-for="(step, index) in pipeline" :key="step.title" class="step rounded-3xl border border-white/10 bg-slate-950/45 p-4">
+                <div class="flex items-center gap-3">
+                  <div :class="['flex h-9 w-9 items-center justify-center rounded-2xl text-sm font-semibold', step.bg]">{{ index + 1 }}</div>
+                  <div>
+                    <div class="font-semibold text-white">{{ step.title }}</div>
+                    <div class="text-sm text-slate-400">{{ step.description }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass rounded-[2rem] p-5 sm:p-6">
+            <div class="flex items-center justify-between">
+              <h2 class="text-lg font-semibold text-white">Why this exists</h2>
+              <span class="text-xs text-slate-500">local / user-owned</span>
+            </div>
+            <p class="mt-3 text-sm leading-7 text-slate-300">
+              RPCS-1 is built for the moments where “I don’t understand this” means “I need precision without being treated like I’m clueless.”
+              It preserves nuance while making the message usable.
+            </p>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          message: "I don’t understand this.",
+          targetAudience: "plain",
+          taskType: "interpretation",
+          rewriteStyle: "plain",
+          interpretation: {},
+          normalized: {},
+          rewriteResult: {},
+          route: {},
+          samples: [
+            { label: "Misread risk", text: "Your builder went to the top of the list on principle." },
+            { label: "Precision", text: "I don’t fully understand the mechanism yet." },
+            { label: "Mixed thoughts", text: "Build the bridge first; then route models later; also preserve tone." }
+          ],
+          styles: ["technical", "plain", "socially_gentle", "concise", "detailed", "direct"],
+          debounceHandle: null,
+          pipeline: [
+            { title: "Intent extraction", description: "What is the user actually trying to say or accomplish?", bg: "bg-sky-400/15 text-sky-200" },
+            { title: "Ambiguity detection", description: "Which words could be misread by humans or AI?", bg: "bg-amber-400/15 text-amber-200" },
+            { title: "Audience translation", description: "How should this be phrased for this receiver?", bg: "bg-violet-400/15 text-violet-200" },
+            { title: "Response normalization", description: "How do we translate the answer back into the user’s style?", bg: "bg-emerald-400/15 text-emerald-200" }
+          ]
+        };
+      },
+      mounted() {
+        this.updateAll();
+      },
+      methods: {
+        async api(path, body) {
+          const response = await fetch(path, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(body)
+          });
+          return await response.json();
+        },
+        async updateAll() {
+          this.normalized = await this.api("/api/normalize", { text: this.message });
+          this.interpretation = await this.api("/api/interpret", {
+            message: this.message,
+            target_audience: this.targetAudience,
+            allow_inference: true
+          });
+          this.rewrite();
+          this.updateRoute();
+        },
+        async rewrite() {
+          this.rewriteResult = await this.api("/api/rewrite", {
+            text: this.message,
+            style: this.rewriteStyle,
+            preserve_precision: true
+          });
+        },
+        async updateRoute() {
+          this.route = await this.api("/api/route", {
+            task_type: this.taskType,
+            objective: "Translate and preserve meaning",
+            target_audience: this.targetAudience,
+            latency_priority: "balanced",
+            cost_priority: "balanced",
+            allow_multi_model: false
+          });
+        },
+        debounceUpdate() {
+          clearTimeout(this.debounceHandle);
+          this.debounceHandle = setTimeout(() => this.updateAll(), 140);
+        },
+        normalizeOnly() {
+          this.api("/api/normalize", { text: this.message }).then(result => {
+            this.normalized = result;
+          });
+        },
+        clearAll() {
+          this.message = "";
+          this.interpretation = {};
+          this.normalized = {};
+          this.rewriteResult = {};
+          this.route = {};
+        },
+        loadSample(text) {
+          this.message = text;
+          this.updateAll();
+        },
+        styleButtonClass(style) {
+          const active = this.rewriteStyle === style;
+          return [
+            "rounded-full px-3 py-1.5 text-xs font-medium transition",
+            active
+              ? "bg-gradient-to-r from-sky-400 to-violet-400 text-slate-950 shadow-lg shadow-sky-400/20"
+              : "border border-white/10 bg-white/5 text-slate-200 hover:bg-white/10"
+          ];
+        }
+      }
+    }).mount("#app");
+  </script>
+</body>
+</html>

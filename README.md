@@ -124,4 +124,12 @@ python -m translator_hub.server route technical --objective "draft a spec"
 python -m translator_hub.server serve
 ```
 
+- Local browser UI:
+
+```bash
+python -m translator_hub.server web
+```
+
+Then open `http://127.0.0.1:8787`.
+
 This code should live on GitHub once you want collaboration, versioned releases, or external integration. It is already structured like a reusable product module, so GitHub is the right home for it.

@@ -27,3 +27,6 @@ package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
 include = ["benchmark_vim*", "translator_hub*"]
+
+[tool.setuptools.package-data]
+"translator_hub" = ["web/*.html"]

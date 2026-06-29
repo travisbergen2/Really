@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import argparse
 import json
+from threading import Thread
 from typing import Any
 
 from .manifest import build_manifest
 from .mcp_transport import serve_stdio
+from .web_server import serve_web
 from .registry import TOOL_CALLS
 
 
@@ -21,6 +23,9 @@ def main(argv: list[str] | None = None) -> int:
 
     sub.add_parser("manifest", help="Print the MCP manifest as JSON.")
     sub.add_parser("serve", help="Run the Translator Hub MCP stdio server.")
+    p_web = sub.add_parser("web", help="Run the local RPCS-1 translation UI.")
+    p_web.add_argument("--host", default="127.0.0.1")
+    p_web.add_argument("--port", type=int, default=8787)
 
     p_interpret = sub.add_parser("interpret", help="Interpret a user message.")
     p_interpret.add_argument("message")
@@ -88,6 +93,17 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "serve":
         serve_stdio()
+        return 0
+
+    if args.command == "web":
+        server = serve_web(host=args.host, port=args.port)
+        print(f"Translator Hub UI running on http://{args.host}:{args.port}")
+        try:
+            server.serve_forever()
+        except KeyboardInterrupt:
+            pass
+        finally:
+            server.server_close()
         return 0
 
     if args.command == "interpret":
