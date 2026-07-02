@@ -1,3 +1,16 @@
+# ⚠️ Superseded / Split — this repo is frozen
+
+This repository has been split (2026-07-01, RPCS-1 consolidation). Its two halves now live at:
+
+| What | Where it went |
+|---|---|
+| **Product** — translation layer, routing, persona/memory, MCP | [rpcs1-sdk](https://github.com/travisbergen2/rpcs1-sdk) (live at [rpcs1.dev](https://rpcs1.dev)). The Python `translator_hub/` here was ported — via the rpcs1-hub TS prototype — into `@rpcs1/core` and has since been improved (receiver-profile awareness, naming fixes). Nothing in `translator_hub/`, `api/`, or `web/` is current. |
+| **Research** — `benchmark_vim/` + `outputs/` + `scripts/` | [imm-vim-benchmark](https://github.com/travisbergen2/imm-vim-benchmark) — verbatim copy, every text file sha256-verified byte-identical. Plot PNGs remain only here (the transfer path was not binary-safe) and are regenerable via `python -m benchmark_vim.cli`. |
+
+No further development happens here. Original README preserved below.
+
+---
+
 # VIM Benchmark Engine
 
 Local numerical falsification harness for candidate Information Complexity functionals `I(H)`.
